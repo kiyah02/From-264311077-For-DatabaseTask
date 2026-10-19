@@ -3,4 +3,4 @@ INSERT INTO 'PENGGUNA' ('nama_pengguna', 'username', 'password', 'role', 'email'
   ('Alex', 'AlexRBF', 'BBBBBBBBB', 'Admin_Sistem', 'kiyah@email.com', '0812344567890'); 
   ('Vintage', 'Oguri_Cap', 'CCCCCCCC', 'Admin_Sistem', 'kiyah@email.com', '0812344567890');
 
-INSERT INTO 'ZONA_LAHAN'
+INSERT INTO 'ZONA_LAHAN' ('')
