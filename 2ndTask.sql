@@ -18,3 +18,12 @@ INSERT INTO LAPORAN (id_zona, id_pengguna, tanggal_laporan, ringkasan, rekomenda
 SELECT * FROM PENGGUNA
 SELECT * FROM ZONA_LAHAN
 SELECT * FROM LAPORAN
+
+--Bagian Update
+UPDATE pengguna 
+  SET password = 'Nobody Will Know' 
+  WHERE id_pengguna = 5;
+
+--Bagian DELETE
+DELETE FROM LAPORAN
+WHERE id_
