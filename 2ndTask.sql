@@ -22,8 +22,8 @@ SELECT * FROM LAPORAN
 --Bagian Update
 UPDATE pengguna 
   SET password = 'Nobody Will Know' 
-  WHERE id_pengguna = 5;
+  WHERE id_pengguna = 1;
 
 --Bagian DELETE
 DELETE FROM LAPORAN
-WHERE id_
+WHERE id_laporan = 2;
