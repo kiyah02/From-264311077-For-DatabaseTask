@@ -8,4 +8,7 @@ INSERT INTO 'ZONA_LAHAN' ('nama_zona', 'luas_lahan', 'jenis_tanaman') VALUES
   ('Timur', '30', 'Paprika');
   ('Selatan', '20', 'Cabai');
 
-
+INSERT INTO `laporan` ('id_zona', 'id_pengguna', 'tanggal_laporan', 'ringkasan', 'rekomendasi') VALUES 
+  ('3', '2', '2019-01-03', 'Tanah Tidak Subur', 'Pemupukan Segera'); 
+  ('1', '3', '2026-10-19', 'Masih Uji Coba', 'Silahkan Disiram'); 
+  ('2', '2', '2017-03-30', 'Kekeringan', 'Perlu Disiram Lebih Sering');
