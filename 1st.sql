@@ -10,19 +10,11 @@ CREATE TABLE PENGGUNA (
 );
 
 --Buat Tabel Tindakan
-CREATE TABLE TINDAKAN (
-    id_tindakan      INT AUTO_INCREMENT PRIMARY KEY,
-    id_peringatan    INT NOT NULL,
-    id_pengguna      INT NOT NULL,
-    jenis_tindakan   VARCHAR(100) NOT NULL,
-    tanggal_tindakan DATE NOT NULL,
-    keterangan       TEXT,
-    CONSTRAINT fk_tindakan_peringatan
-        FOREIGN KEY (id_peringatan) REFERENCES PERINGATAN(id_peringatan)
-        ON UPDATE CASCADE ON DELETE CASCADE,
-    CONSTRAINT fk_tindakan_pengguna
-        FOREIGN KEY (id_pengguna) REFERENCES PENGGUNA(id_pengguna)
-        ON UPDATE CASCADE ON DELETE RESTRICT
+CREATE TABLE ZONA_LAHAN (
+    id_zona        INT AUTO_INCREMENT PRIMARY KEY,
+    nama_zona      VARCHAR(100) NOT NULL,
+    luas_lahan     DECIMAL(10,2) NOT NULL,
+    jenis_tanaman  VARCHAR(100) NOT NULL
 );
 
 --Buat Tabel Laporan
