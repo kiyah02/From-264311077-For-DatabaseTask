@@ -1,1 +1,4 @@
-Test
+INSERT INTO `pengguna` (`nama_pengguna`, `username`, `password`, `role`, `email`, `no_telp`) VALUES 
+  ('Kiyah', 'just_kiyah', 'AAAAAAAAA', 'Admin_Sistem', 'kiyah@email.com', '0812344567890'); 
+  ('Alex', 'AlexRBF', 'BBBBBBBBB', 'Admin_Sistem', 'kiyah@email.com', '0812344567890'); 
+  ('Vintage', 'Oguri_Cap', 'CCCCCCCC', 'Admin_Sistem', 'kiyah@email.com', '0812344567890');
